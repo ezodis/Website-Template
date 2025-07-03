@@ -20,7 +20,7 @@ Encountering issues with Cookiecutter Django? Don't hesitate to [open an issue](
 
 ### Backend
 
-- Django 4.2 takes center stage 🎭
+- Django 5.0 takes center stage 🎭
 - Powered by Python 3.11 magic 🐍✨
 - Adheres to the 12-Factor app principles using `django-environ` ⚙️
 - Embraces a security-first approach with SSL 🛡️

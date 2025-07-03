@@ -64,7 +64,11 @@ ADMIN_URL = env("DJANGO_ADMIN_URL")
 {% if cookiecutter.use_whitenoise == 'y' -%}
 # STATIC
 # ------------------------
-STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+STORAGES = {
+    "staticfiles": {
+        "BACKEND": "whitenoise.storage.CompressedManifestStaticFilesStorage",
+    },
+}
 
 {% endif -%}
 
